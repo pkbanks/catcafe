@@ -1,0 +1,30 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.card{
+	border-style: solid;
+	margin: 10px;
+	min-height: 120px;
+}
+
+img{
+	width: 100%;
+	margin: auto;
+	font-size: 30px;
+	text-align: center;
+	background-color: #539de2;
+	color: white;
+}
+
+a{
+	color: inherit;
+}
+
+.container-fluid{
+	padding-bottom: 20px;
+}
+
+.nav-name{
+	padding-top: 20px;
+}

@@ -1,0 +1,9 @@
+<div class="row">
+	<% @cats.each do |cat| %>
+		<div class="col-xs-12 col-sm-3">
+			<div class="card">
+				<%= image_tag(cat["url"], id: cat["id"], alt: "< oops! > we lost the kitty.  double-tap to alert us.", class:"card-img-top") %>
+			</div>
+		</div>
+	<% end %>
+</div>
